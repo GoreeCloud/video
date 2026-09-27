@@ -1,10 +1,9 @@
-# GoreeCloud Video — Feature Roadmap
+# GoreeCloud Video — Planned Features
 
 **Status:** Active roadmap control  
 **As of:** 2026-09-09  
 **Authoritative project record:** Project Specification — Video  
 **Canonical repository:** GoreeCloud/goreecloud-video  
-**Drive control:** `GoreeCloud/Feature Roadmap/GoreeCloud Video/FEATURE-ROADMAP.docx`
 
 ## Purpose
 
@@ -16,7 +15,7 @@ This file is the repository-side feature roadmap control for GoreeCloud Video. I
 | --- | --- | --- | --- |
 | FR-001 | Reconcile and maintain every current planned or recommended GoreeCloud Video feature from the authoritative project record and verified repository evidence in this roadmap. | High | Ongoing control |
 | FR-002 | Move actionable feature obligations into GoreeCloud Tasks Management when required, preserving priority, dependency, and lifecycle disposition. | High | Ongoing control |
-| FR-003 | Do not mark features implemented, complete, cancelled, or superseded without authoritative evidence and synchronized repository/Drive roadmap updates. | High | Ongoing control |
+| FR-003 | Do not mark features implemented, complete, cancelled, or superseded without authoritative evidence and authoritative repository feature-record updates. | High | Ongoing control |
 | FR-004 | Next-Generation Glaze UI: redesign Movies and TV Shows libraries; add sticky contextual navigation; improve Collections/My List; reduce browsing latency; enrich title, season, and episode pages; support audio/subtitle language filters and metadata-based discovery; improve keyboard/remote navigation, accessibility, focus/high-contrast/reduced-motion behavior, unified design tokens/theming, and TV-distance controls; remain a first-party GoreeCloud interface rather than a Jellyfin Web reskin. | TBD | Planned / proposed — not verified implemented |
 | FR-005 | Major library performance improvements: optimize Continue Watching, Next Up, Recently Added, My List, Collections, large folders and movie/TV libraries, watch-state queries, profile recommendations, search/filtering, and metadata retrieval; make large logical groups update incrementally where possible to reduce unnecessary state loading, rewriting, and database overhead. | TBD | Planned / proposed — not verified implemented |
 | FR-006 | Advanced movie and episode versions: support linked 1080p/4K, SDR/HDR, theatrical/extended, broadcast/uncensored, remastered, alternate-encode, alternate-audio, and alternate-episode versions under the correct shared title identity, with predictable version selection, watch history, resume position, metadata, and playback state. | TBD | Planned / proposed — not verified implemented |
@@ -42,11 +41,9 @@ This file is the repository-side feature roadmap control for GoreeCloud Video. I
 | FR-026 | Broader client support: after Web, Android, Android TV/Google TV, and Linux mature, consider iPhone/iPad, Apple TV, Roku, additional smart-TV platforms, and other maintainable clients; do not declare support until playback, authentication, security, private-network access, accessibility, and update behavior are validated. | TBD | Planned / proposed — not verified implemented |
 | FR-027 | Overall next-evolution direction: make GoreeCloud Video faster, more native, more private, more secure, more polished, stronger on televisions and across devices, and easier to administer while becoming increasingly independent of its transitional Jellyfin-derived foundation through GoreeCloud-owned interfaces, Glaze UI, Wardveil Security, Privacy Shield, Everkeep, and progressively replaceable media-server components. | TBD | Planned / proposed — not verified implemented |
 
-## Maintenance and synchronization
+## Repository-native maintenance
 
-This roadmap and the corresponding Drive `FEATURE-ROADMAP.docx` must remain materially synchronized with one another and with the authoritative project or service record. Update both copies whenever feature scope, priority, dependency, implementation status, cancellation, supersession, recommendation, or verification state materially changes.
-
-No feature may be represented as complete or Stable solely because it appears in this roadmap. Completion and lifecycle claims require the applicable authoritative implementation, validation, review, release, and production evidence.
+Google Drive roadmap synchronization is retired. Maintain this file from authoritative project, repository, validation, and task evidence.
 
 ## Reconciliation rule
 
